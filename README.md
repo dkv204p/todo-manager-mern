@@ -13,8 +13,6 @@ A simple **MERN stack** (MongoDB, Express, React, Node.js) Todo App with authent
 
 ---
 
----
-
 ## 🛠️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
@@ -66,11 +64,6 @@ The frontend will run on **http://localhost:5173**
 - `GET /api/todos` ➝ Get user's todos
 - `POST /api/todos` ➝ Add new todo
 - `DELETE /api/todos/:id` ➝ Delete a todo
-
----
-
-## 🖼️ Screenshots
-🚀 Coming soon...
 
 ---
 
