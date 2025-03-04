@@ -15,17 +15,6 @@ router.get("/", authMiddleware, async (req, res) => {
   }
 });
 
-// Get todos by id
-router.get("/:id", authMiddleware, async (req, res) => {
-  try {
-    const todos = await Todo.findById(req.params.id);
-    res.json(todos);
-  } catch (error) {
-    console.error("Error fetching todos:", error);
-    res.status(500).json({ error: "Error fetching todos" });
-  }
-});
-
 // Add a new todo (Private)
 router.post("/", authMiddleware, async (req, res) => {
   try {
